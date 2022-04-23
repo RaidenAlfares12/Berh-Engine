@@ -79,8 +79,8 @@
 		<library name="week6"         preload="false" />
 	</section>
 
-	<assets path="assets/preload/songs"         library="songs"         exclude="*.ogg" if="web"/>
-	<assets path="assets/preload/songs"         library="songs"         exclude="*.mp3" unless="web"/>
+	<assets path="assets/preload/song"         library="song"         exclude="*.ogg" if="web"/>
+	<assets path="assets/preload/song"         library="song"         exclude="*.mp3" unless="web"/>
 	<assets path="assets/shared"        library="shared"        exclude="*.ogg" if="web"/>
 	<assets path="assets/shared"        library="shared"        exclude="*.mp3" unless="web"/>
 	<assets path="assets/week2"         library="week2"         exclude="*.ogg" if="web"/>
