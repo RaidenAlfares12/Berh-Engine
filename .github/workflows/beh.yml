@@ -190,7 +190,7 @@ jobs:
           haxelib install flixel-addons
           haxelib install hscript
           haxelib git linc_luajit https://github.com/jigsaw-4277821/linc_luajit.git   
-          haxelib git extension-webview https://github.com/jigsaw-4277821/extension-videoview.git --quiet
+          haxelib git extension-webm https://github.com/jigsaw-4277821/extension-videoview.git --quiet
           haxelib list
           
       - name: Create Version Tag
